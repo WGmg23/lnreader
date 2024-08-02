@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - feat/vanjs
 jobs:
   build-android:
     name: Build App
